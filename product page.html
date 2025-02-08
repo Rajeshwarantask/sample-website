@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Product Landing Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+	<style>/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font style */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #333;
+}
+
+/* Header styles */
+.header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+/* Logo styles */
+.site.logo {
+    width: 60px;
+    height: 60px;
+}
+
+/* Main section styles */
+.welcome.section {
+    text-align: center;
+    padding: 4rem 0;
+}
+
+/* Feature styles */
+.feature {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.feature:hover {
+    background-color: #f4f4f4;
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    color: #ff9800;
+}
+
+.feature-title {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+.feature-description {
+    margin-top: 1rem;
+}
+
+/* Pricing feature styles */
+.pricing {
+    text-align: center;
+    padding: 4rem 0;
+    background-color: #f4f4f4;
+}
+
+.pricing-feature {
+    display: inline-block;
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: #4caf50;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Social icon styles */
+.social.link {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .col {
+        width: 100%;
+    }
+}</style
+</head>
+
+<body> 
+
+	<div class="container">
+		<!-- Top box -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/product-bg.jpg">
+				<div class="header">
+					<div class="header inner">
+						<div class="col 12">
+							<img src="img/product-logo.png" alt="Logo" class="site logo" /> 
+							<div class="site text box">
+								<h1 class="site title">Awesome Product</h1>
+								<h6 class="site description">Experience the future</h6>	
+							</div>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="welcome section">
+				<h2 class="section title">Discover Our Amazing Product</h2>
+				<p class="section text">Experience the future with our revolutionary product. It's designed to make your life easier and more enjoyable.</p>
+			</header>
+
+			<div class="container inner features">
+				<div class="row">
+					<div class="col 4">
+						<div class="feature">
+							<i class="fas fa-4x fa-lightbulb feature-icon"></i>
+							<h4 class="feature-title">Innovative Design</h4>
+							<p class="feature-description">Our product features a sleek and modern design that stands out from the crowd.</p>
+						</div>
+					</div>
+					<div class="col 4">
+						<div class="feature">
+							<i class="fas fa-4x fa-cogs feature-icon"></i>
+							<h4 class="feature-title">Advanced Technology</h4>
+							<p class="feature-description">Powered by the latest technology, our product offers cutting-edge features and performance.</p>
+						</div>
+					</div>
+					<div class="col 4">
+						<div class="feature">
+							<i class="fas fa-4x fa-heart feature-icon"></i>
+							<h4 class="feature-title">Loved by Users</h4>
+							<p class="feature-description">Join thousands of satisfied customers who have fallen in love with our product.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container inner pricing">
+				<div class="row">
+					<div class="col 6">
+						<div class="pricing-feature">
+							<i class="fas fa-2x fa-check-circle"></i>
+							<p>Feature 1</p>
+						</div>
+					</div>
+					<div class="col 6">
+						<div class="pricing-feature">
+							<i class="fas fa-2x fa-check-circle"></i>
+							<p>Feature 2</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col 6">
+						<div class="pricing-feature">
+							<i class="fas fa-2x fa-check-circle"></i>
+							<p>Feature 3</p>
+						</div>
+					</div>
+					<div class="col 6">
+						<div class="pricing-feature">
+							<i class="fas fa-2x fa-check-circle"></i>
+							<p>Feature 4</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+			<p>&copy;copyright@ 2023 RAJESH </p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+</body>
+  </html>
